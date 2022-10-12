@@ -1,0 +1,55 @@
+.homeCenterMainDiv {
+  min-height: 100vh;
+  /* background-color: #ccc; */
+  /* border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; */
+  font-family: "Montserrat", sans-serif !important;
+}
+.homeCenterGraphDiv {
+  /* background-image: url(../assets/DummyGraph.png); */
+  background-image: url(../assets/DummyGraph.png);
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.homeCenterDivImageDiv {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 0px #000;
+}
+.homeCenterDivImageDiv > img {
+  max-width: 75%;
+}
+.homeRightMainDiv {
+  min-height: 100vh;
+  /* border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; */
+  transition: all 0.5s ease;
+  position: absolute;
+  right: 0;
+}
+.homeRightDivToggleButton {
+  width: 90px;
+  /* height: 25px; */
+  background-color: #2121ff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-17.5px) rotate(-90deg);
+  left: -44.5px;
+  border-radius: 12px;
+}
+.homeRightDivToggleButton > p {
+  color: #fff;
+  font-size: 12px;
+}
+.homeRightDivToggleButton > div {
+  width: 7px;
+  height: 7px;
+  display: flex;
+  transform: translateY(-1px);
+}
+.homeRightDivToggleButton > div > img {
+  max-width: 100%;
+}

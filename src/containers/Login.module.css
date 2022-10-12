@@ -1,0 +1,17 @@
+.loginMainDiv {
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif !important;
+}
+.loginFormMainDiv {
+  background-color: rgb(221, 221, 221, 0.7);
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px 0px #888;
+}
+.loginButton {
+  flex: 1;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+}

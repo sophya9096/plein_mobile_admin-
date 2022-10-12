@@ -1,0 +1,48 @@
+.homeRightMainDiv {
+  min-height: 100vh;
+  /* border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; */
+  transition: all 0.5s ease;
+  position: absolute;
+  right: 0;
+  /* flex: 0 0 89.666667%;
+  max-width: 89.666667%; */
+  font-family: "Montserrat", sans-serif !important;
+}
+.col11 {
+  flex: 0 0 89.666667%;
+  max-width: 89.666667%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.homeRightDivToggleButton {
+  width: 5vw;
+  /* height: 25px; */
+  /* background-color: #2121ff; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-0.7vw) rotate(-90deg);
+  left: -41.5px;
+  border-radius: 12px;
+}
+.homeRightDivToggleButton > p {
+  color: #fff;
+  font-size: 12px;
+}
+.homeRightDivToggleButton > div {
+  width: 7px;
+  height: 7px;
+  display: flex;
+  transform: translateY(-1px);
+}
+.homeRightDivToggleButton > div > img {
+  max-width: 100%;
+}
+.loadMoreButton {
+  flex: 1;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+}

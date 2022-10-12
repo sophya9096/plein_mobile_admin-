@@ -1,0 +1,15 @@
+.tableMainDiv {
+  flex: 3 1 0%;
+  border: 1px solid rgb(255, 255, 255);
+  /* max-height: 50vh; */
+  overflow: hidden;
+  margin: 0 15px;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif !important;
+}
+.tableBodyDiv {
+  background-color: rgb(255, 255, 255);
+  /* max-height: 47vh; */
+  min-height: 100%;
+  overflow: auto;
+}

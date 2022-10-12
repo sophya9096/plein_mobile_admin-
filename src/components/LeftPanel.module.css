@@ -1,0 +1,31 @@
+.leftPanelMainDiv {
+    min-height: 100vh;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    flex: 0 0 10.333333%;
+    max-width: 10.333333%;
+    font-family: "Montserrat", sans-serif !important;
+}
+.leftPanelTilesTextDiv {
+    width: 3.8vw;
+}
+.leftPanelTilesText {
+    color: #fff;
+    font-size: 0.65vw;
+}
+.leftPanelGreenTile {
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 1px #000;
+    width: 3vw;
+    height: 3vw;
+    /* width: 8vh;
+  height: 8vh; */
+}
+.loginMainDiv {
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.leftPanelLink:focus,
+.logoutButton:focus {
+    outline: none;
+}

@@ -1,0 +1,11 @@
+.middleColMainDiv {
+  min-height: 100vh;
+  position: absolute;
+  left: 9.5%;
+  /* transition: all 0.5s ease; */
+  flex: 0 0 24%;
+  max-width: 24.75%;
+  font-family: "Montserrat", sans-serif !important;
+}
+.col3 {
+}

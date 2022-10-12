@@ -1,0 +1,29 @@
+.homeCenterMainDiv {
+  min-height: 100vh;
+  /* background-color: #ccc; */
+  /* border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; */
+  font-family: "Montserrat", sans-serif !important;
+}
+.homeCenterGraphDiv {
+  /* background-image: url(../../assets/DummyGraph.png); */
+  background-image: url(../../assets/DummyGraph1.png);
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.homeCenterDivImageDiv {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 0px #000;
+}
+.homeCenterDivImageDiv > img {
+  max-width: 75%;
+}
+.homeRightMainDiv {
+  min-height: 100vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
